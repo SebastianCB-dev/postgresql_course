@@ -1,0 +1,2 @@
+- INT: for numbers
+- VARCHAR(n) : for string and "n" is the length 
