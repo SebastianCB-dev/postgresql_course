@@ -1,4 +1,3 @@
-
 1. Convertirse en usuario postgres 
 sudo su - postgres
 
@@ -43,5 +42,11 @@ SELECT * FROM table_name
 
 15. Eliminar un dato de una tabla
 DELETE FROM table_name where <condition>;
+
+16. Eliminar una tabla
+DROP TABLE table_name;
+
+17. Renombrar base de datos
+ALTER DATABASE database_name RENAME TO new_database_name;
 
 
