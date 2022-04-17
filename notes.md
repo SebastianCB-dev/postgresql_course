@@ -32,9 +32,16 @@ ALTER TABLE table_name ADD COLUMN column_name DATATYPE;
 11. Remove column from a table
 ALTER TABLE table_name DROP COLUMN column_name;
 
+12. Renombrar campo de una table
+ALTER TABLE table_name RENAME COLUMN column_name TO new_name;
 
+13. Insertar datos en una tabla
+INSERT INTO table_name(column_1, column_2) VALUES (value1, value2)
 
+14. Mostrar todos los datos de una tabla
+SELECT * FROM table_name
 
-
+15. Eliminar un dato de una tabla
+DELETE FROM table_name where <condition>;
 
 
