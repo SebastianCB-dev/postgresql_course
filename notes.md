@@ -49,4 +49,12 @@ DROP TABLE table_name;
 17. Renombrar base de datos
 ALTER DATABASE database_name RENAME TO new_database_name;
 
+18. Actualizar un dato
+UPDATE table_name SET column_name=new_value WHERE condition;
 
+19. PRIMARY KEY.
+It's a column that uniquely identifies each row in the table
+ALTER TABLE table_name ADD PRIMARY KEY (column_name);
+
+20. Eliminar PRIMARY KEY.
+ALTER TABLE table_name DROP CONSTRAINT constraint_name;
